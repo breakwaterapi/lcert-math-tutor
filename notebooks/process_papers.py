@@ -4,7 +4,7 @@ import base64
 import time
 from glob import glob
 from PIL import Image
-from mistralai import Mistral
+from mistralai.client import Mistral
 from dotenv import load_dotenv, find_dotenv
 
 # --- CONFIGURATION ---

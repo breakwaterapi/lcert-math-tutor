@@ -1,7 +1,7 @@
 import os
 import json
 import numpy as np
-from mistralai import Mistral
+from mistralai.client import Mistral
 from dotenv import load_dotenv
 import time
 
