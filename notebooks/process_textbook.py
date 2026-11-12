@@ -1,7 +1,7 @@
 import os
 import json
 import base64
-from mistralai import Mistral
+from mistralai.client import Mistral
 from dotenv import load_dotenv
 
 def process_textbook(pdf_path, images_output_dir, processed_output_path):

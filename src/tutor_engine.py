@@ -3,7 +3,8 @@ import base64
 import os
 import json
 import numpy as np
-from mistralai import Mistral, SystemMessage, UserMessage, TextChunk, ImageURLChunk
+from mistralai.client import Mistral
+from mistralai.client.models import SystemMessage, UserMessage, TextChunk, ImageURLChunk
 from dotenv import load_dotenv
 from sklearn.metrics.pairwise import cosine_similarity
 

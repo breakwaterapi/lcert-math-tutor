@@ -10,7 +10,7 @@ import sys
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from src.tutor_engine import get_ai_feedback, find_relevant_pages
-from mistralai import SystemMessage, UserMessage
+from mistralai.client.models import SystemMessage, UserMessage
 
 @pytest.fixture
 def mock_mistral_client():
